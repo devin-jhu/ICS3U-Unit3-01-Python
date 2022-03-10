@@ -16,7 +16,7 @@
                 <mxCell id="2" value="Area and Perimeter" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="354" y="130" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3" edge="1">
+                <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3" edge="1" target="24">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="210" y="350" as="targetPoint"/>
                     </mxGeometry>
@@ -41,14 +41,17 @@
                 <mxCell id="5" value="Output" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="530" y="230" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="perimeter = length + width" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="8" value="calculate: first + second = total" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="354" y="350" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="show perimeter" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="9" value="show total and calculation" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="530" y="350" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="input length&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="150" y="350" width="120" height="60" as="geometry"/>
+                <mxCell id="10" value="input first number" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="360" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="input second number" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="360" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
